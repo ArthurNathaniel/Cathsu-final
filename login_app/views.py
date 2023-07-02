@@ -16,7 +16,7 @@ def render_login(request):
 
 def perform_login(request):
     if request.method != "POST":
-        return HttResponse("Method is not allowed")
+        return HttpResponse("Method is not allowed")
     else:
         username = request.POST.get("username")
         password = request.POST.get("password")
