@@ -17,6 +17,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 # Application definition
+CSRF_TRUSTED_ORIGINS = ['https://cathsu-final-production.up.railway.app']
 
 INSTALLED_APPS = [
     'jazzmin',
